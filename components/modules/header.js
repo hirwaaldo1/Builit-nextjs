@@ -4,7 +4,7 @@ import Buttons from "../buttons";
 import Link from "next/link";
 export default function Header() {
   return (
-    <header className=" w-full absolute z-20">
+    <header className=" w-full px-20 absolute z-20">
       <div className="flex justify-around pt-16  max-w-screen-xl m-auto ">
         <Link href="/">
           <a>

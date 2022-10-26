@@ -4,7 +4,7 @@ import Typography from "../typography";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary-200 py-20">
+    <footer className="bg-primary-200 p-20">
       <div className="flex  max-w-7xl m-auto justify-between ">
         <div>
           <Typography size="md" value="Buildit" style={"text-[white] mb-5"} />

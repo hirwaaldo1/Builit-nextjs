@@ -10,7 +10,7 @@ export default function HomeLayout() {
         <div className="absolute  right-0 z-1">
           <img src="/assets/Figure.svg" className="w-full" alt="" />
         </div>
-        <div className="pt-36 w-fit m-auto grid grid-cols-2 z-20">
+        <div className="pt-36 w-fit px-20 m-auto grid grid-cols-2 z-20">
           <div className="m-auto  w-[500px]">
             <Typography
               size="lg"
@@ -60,7 +60,7 @@ export default function HomeLayout() {
           })}
         </div>
       </section>
-      <section className="bg-gradient-to-r mt-40 from-primary-400 py-16 to-primary-500">
+      <section className="bg-gradient-to-r mt-40 from-primary-400 py-16 px-20 to-primary-500">
         <div className="max-w-screen-xl m-auto border-t border-b pb-6  border-primary-200">
           <div className="max-w-2xl m-auto pt-6 flex space-x-7 justify-between  ">
             {campany.map((v, i) => {
@@ -92,7 +92,7 @@ export default function HomeLayout() {
           </div>
         </div>
       </section>
-      <section className="bg-[#F4F7FF]">
+      <section className="bg-[#F4F7FF] px-20">
       <div className="py-36 w-fit m-auto grid grid-cols-2 z-20">
           <div className="m-auto  w-[500px]">
             <Typography
@@ -118,7 +118,7 @@ export default function HomeLayout() {
           </div>
         </div>
       </section>
-      <section className="text-center bg-gradient-to-r  from-primary-400 py-16 to-primary-500">
+      <section className="text-center  bg-gradient-to-r  from-primary-400 py-16 to-primary-500">
             <Typography
               value="Socials"
               colored={true}
@@ -137,7 +137,7 @@ export default function HomeLayout() {
                 }
             </div>
       </section>
-      <section className="bg-[#F4F7FF]">
+      <section className="px-20 bg-[#F4F7FF]">
         <div className="py-36 max-w-7xl m-auto grid grid-cols-2 z-20">
             <div>
                 <Typography
@@ -154,7 +154,7 @@ export default function HomeLayout() {
               info.map((v,k)=>{
                 return (
                   <div className="flex space-x-5 mb-4" key={k}>
-                  <img src="assets/icon12.png"  className="h-16"/>
+                  <img src="/assets/icon12.png"  className="h-16"/>
                   <div className="m-auto">
                     <Typography size="sm" style="text-sm" value={v.type} />
                     <Typography size="sm" style="text-xl  font-bold w-[20rem]" value={v.value} />

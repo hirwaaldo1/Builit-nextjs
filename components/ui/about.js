@@ -30,7 +30,7 @@ export default function AboutLayout() {
           </div>
         </div>
       </section>
-      <section className="text-center py-20">
+      <section className="text-center p-20">
         <Typography
           colored={true}
           value="Statistics"
@@ -89,7 +89,7 @@ export default function AboutLayout() {
               );
             })}
         </div>
-        <div className="max-w-screen-xl m-auto border-t border-b pb-6 mt-20  border-primary-200">
+        <div className="max-w-5xl  m-auto border-t border-b pb-6 mt-20  border-primary-200">
           <div className="pt-14 pb-8 flex space-x-7 justify-between  ">
             <div>
               <Typography size="md" value="Call us" />
