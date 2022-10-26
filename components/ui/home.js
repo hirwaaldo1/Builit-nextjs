@@ -154,7 +154,7 @@ export default function HomeLayout() {
               info.map((v,k)=>{
                 return (
                   <div className="flex space-x-5 mb-4" key={k}>
-                  <img src="/assets/icon12.png"  className="h-16"/>
+                  <img src="/assets/Icon12.png"  className="h-16"/>
                   <div className="m-auto">
                     <Typography size="sm" style="text-sm" value={v.type} />
                     <Typography size="sm" style="text-xl  font-bold w-[20rem]" value={v.value} />
