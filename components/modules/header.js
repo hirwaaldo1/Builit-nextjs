@@ -27,7 +27,7 @@ export default function Header() {
             );
           })}
         </ul>
-        <Buttons text="Need a project?" />
+        <Buttons url="/Projects" text="Need a project?" />
       </div>
     </header>
   );

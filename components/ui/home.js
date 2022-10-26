@@ -23,11 +23,13 @@ export default function HomeLayout() {
             ></Typography>
             <div className="flex space-x-5 mt-20">
               <Buttons
+                url="Services"
                 style="w-fit h-[61px] w-[109px]"
                 text="Services"
               ></Buttons>
               <Buttons
                 style="h-[61px] w-[400px] text-primary-200"
+                url="About"
                 color={"bg-primary-400 w"}
                 text="About the company"
               ></Buttons>

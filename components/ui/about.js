@@ -95,7 +95,7 @@ export default function AboutLayout() {
               <Typography size="md" value="Call us" />
             </div>
             <div className="flex space-x-5 w-fit m-auto ">
-              <Buttons style="w-[200px] h-fit" text="Services"></Buttons>
+              <Buttons style="w-[200px] h-fit" text="Services" url="/Services"></Buttons>
               <Buttons
                 style="w-[150px] h-fit text-primary-100 bg-primary-900"
                 text="Email"
