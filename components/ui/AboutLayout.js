@@ -2,7 +2,7 @@ import React from "react";
 import Typography from "../Typography";
 import Button from "../Button";
 import { campany } from "../../data/data";
-import Card from "../module/card";
+import Card from "../module/Card";
 export default function AboutLayout() {
   return (
     <div>

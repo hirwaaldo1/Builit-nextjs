@@ -1,5 +1,5 @@
 import Button from "../Button";
-import Imagelist from "../module/imagelist";
+import Imagelist from "../module/ImageList";
 import TextField from "../TextField";
 import Typography from "../Typography";
 import {campany,gallaryList,info} from "../../data/data"

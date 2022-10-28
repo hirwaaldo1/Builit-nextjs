@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Typography({ size, value, style = "", colored }) {
   return (
-    <>
+    <> 
       {size === "lg" && (
         <h2 className={`text-primary-200 text-6xl font-semibold ${style}`}>
           {value}
