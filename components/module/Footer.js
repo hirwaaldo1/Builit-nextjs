@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Typography from "../typography";
+import Typography from "../Typography";
 
 export default function Footer() {
   return (
@@ -33,9 +33,9 @@ export default function Footer() {
           <img src="/assets/Button container.png" />
         </div>
         <div>
-          {["About us", "Services", "Projects", "Contact"].map((v, k) => {
+          {["about", "service", "project", "contact"].map((v, k) => {
             return (
-              <Link href="/" key={k}>
+              <Link href={`/${v}`} key={k}>
                 <a>
                   <Typography size="sm" value={v} style="text-[white] mb-2" />
                 </a>

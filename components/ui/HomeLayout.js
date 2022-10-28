@@ -1,7 +1,7 @@
-import Buttons from "../buttons";
-import Imagelist from "../modules/imagelist";
-import TextField from "../textField";
-import Typography from "../typography";
+import Button from "../Button";
+import Imagelist from "../module/imagelist";
+import TextField from "../TextField";
+import Typography from "../Typography";
 import {campany,gallaryList,info} from "../../data/data"
 export default function HomeLayout() {
   return (
@@ -22,17 +22,17 @@ export default function HomeLayout() {
               value="Forward-thinking real estate developer, owner and investor with a reputation"
             ></Typography>
             <div className="flex space-x-5 mt-20">
-              <Buttons
+              <Button
                 url="Services"
                 style="w-fit h-[61px] w-[109px]"
                 text="Services"
-              ></Buttons>
-              <Buttons
+              ></Button>
+              <Button
                 style="h-[61px] w-[400px] text-primary-200"
                 url="About"
                 color={"bg-primary-400 w"}
                 text="About the company"
-              ></Buttons>
+              ></Button>
             </div>
           </div>
           <div className="z-20 pb-24">
@@ -90,7 +90,7 @@ export default function HomeLayout() {
               style="mt-4 mb-10"
               value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit sem, vestibulum sed leo eu, malesuada pharetra mauris. Integer rhoncus, eros vel euismod tempor, ipsum magna tristique nisi, quis ullamcorper enim magna eu orci. Sed semper ex quis semper aliquet. Cras hendrerit molestie sapien sed fermentum. Mauris dui tortor, viverra vel ultrices in, congue sed ex."
             ></Typography>
-            <Buttons text="Explore" />
+            <Button text="Explore" />
           </div>
         </div>
       </section>
@@ -113,7 +113,7 @@ export default function HomeLayout() {
               style="mt-4 mb-10"
               value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit sem, vestibulum sed leo eu, malesuada pharetra mauris. Integer rhoncus, eros vel euismod tempor, ipsum magna tristique nisi, quis ullamcorper enim magna eu orci. Sed semper ex quis semper aliquet. Cras hendrerit molestie sapien sed fermentum. Mauris dui tortor, viverra vel ultrices in, congue sed ex."
             ></Typography>
-            <Buttons text="Explore" />
+            <Button text="Explore" />
           </div>
           <div className="z-20 pb-24">
             <Imagelist />
@@ -174,7 +174,7 @@ export default function HomeLayout() {
               </div>
               <TextField lable="Subject" which="input" type="Subject"  />
               <TextField lable="Message" which="textarea" type="text"  />
-              <Buttons text="Submit" width="w-full" style="h-[54px] w-full w-full" />
+              <Button text="Submit" width="w-full" style="h-[54px] w-full w-full" />
               </div>
             </div>
         </div>

@@ -1,8 +1,8 @@
 import React from "react";
-import Typography from "../typography";
-import Buttons from "../buttons";
+import Typography from "../Typography";
+import Button from "../Button";
 import { campany } from "../../data/data";
-import Card from "../modules/card";
+import Card from "../module/card";
 export default function AboutLayout() {
   return (
     <div>
@@ -95,11 +95,11 @@ export default function AboutLayout() {
               <Typography size="md" value="Call us" />
             </div>
             <div className="flex space-x-5 w-fit m-auto ">
-              <Buttons style="w-[200px] h-fit" text="Services" url="/Services"></Buttons>
-              <Buttons
+              <Button style="w-[200px] h-fit" text="Services" url="/Services"></Button>
+              <Button
                 style="w-[150px] h-fit text-primary-100 bg-primary-900"
                 text="Email"
-              ></Buttons>
+              ></Button>
             </div>
           </div>
         </div>

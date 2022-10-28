@@ -1,6 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import Buttons from "../buttons";
+import Buttons from "../Button";
 import Link from "next/link";
 export default function Header() {
   return (
@@ -17,7 +16,7 @@ export default function Header() {
           </a>
         </Link>
         <ul className="flex space-x-8 m-auto">
-          {["About", "Services", "Projects", "Contact"].map((v, k) => {
+          {["about", "service", "project", "contact"].map((v, k) => {
             return (
               <li className="text-primary-100" key={k}>
                 <Link href={v}>
